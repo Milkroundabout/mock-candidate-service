@@ -1,7 +1,7 @@
 require 'sinatra'
 
 configure do
-  # I use a VM for my dev environment
+  # In case you're using a VM
   set :bind, '0.0.0.0'
 end
 
